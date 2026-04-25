@@ -47,7 +47,7 @@ public class RotationCountinsortedarray {
         return -1;
     }
     public static void main(String[]args){
-        int arr[] = {0,1,2,3,4,5};
+        int arr[] = {11,12,0,1,2,3,4,5};
         System.out.println(findRotatedCount(arr));
     }
 }
