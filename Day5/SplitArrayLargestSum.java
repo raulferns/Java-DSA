@@ -21,7 +21,7 @@ public class SplitArrayLargestSum {
                     pieces++;
                 }
                 else{
-                    start+=num;
+                    sum+=num;
                 }
             }
             if(pieces>k){
@@ -32,9 +32,6 @@ public class SplitArrayLargestSum {
             }
         }
         return end;
-    }
-    public static void main(String[] args){
-
     }
     
 }
