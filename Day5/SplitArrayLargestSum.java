@@ -25,7 +25,7 @@ public class SplitArrayLargestSum {
                 }
             }
             if(pieces>k){
-                start=mid+1;
+                sum=mid+1;
             }
             else{
                 end=mid;
